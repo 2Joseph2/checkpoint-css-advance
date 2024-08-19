@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+svg {
+    width: 25px;
+    height: 25px;
+    fill: teal; 
+}
+
+#green {
+    color: rgb(0, 0, 0); 
+}
+
+#fp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: inherit; 
+    font-family: Arial, sans-serif; 
+}
+#beige{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p{
+    text-align: center; 
+}
+#tmt{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+#hhh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#box{
+    width: 325px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(195, 195, 149);
+    color: rgb(0, 0, 0);
+}
+
+#box button{
+    background-color:rgb(168, 151, 168);
+    border: solid  3px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+#ji{
+    text-align: left;  
+}
+#logolist1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    text-align: right;     
+}
+#logolist2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    text-align: right;  
+}
+
+#sm{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sec2{
+    background-color:  rgb(195, 195, 149);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+#blogo{
+    width: 500px;
+    height: 500px;
+    fill: rgb(255, 255, 255);
+    
+}
+
+#dis1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dis2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mbox{
+    background-color: rgb(170, 164, 175);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    fill: white;
+    margin: 15px;
+    
+}
+
+.hd{
+    display: flex;
+}
+footer{
+    display: flex;
+    text-align: center;  
+}
